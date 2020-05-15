@@ -1,0 +1,5 @@
+migrations_path: './migrations'
+keyspace: 'notifications'
+replication:
+  class: SimpleStrategy
+  replication_factor: 1
